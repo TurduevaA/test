@@ -1,16 +1,14 @@
 import { styled } from "@mui/material";
 import React from "react";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div>
-      <Title>test project</Title>
+      <Header />
     </div>
   );
 };
 
 export default App;
 
-const Title = styled("h1")({
-  color: "red",
-});
