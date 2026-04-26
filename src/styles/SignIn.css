@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #f5f7fa;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.p1 {
+    color: #8a8a8a;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.social-login {
+    display: flex;
+    gap: 15px;
+
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 320px;
+}
+.button1,
+.button2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.social-login img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.devider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    margin: 20px 0;
+    color: #888;
+    font-size: 12px;
+}
+.divider::before{
+    flex: 1;
+    content: "";
+    height: 1px;
+    background: #ddd;
+    margin-right: 10px;
+}
+.divider::after {
+    flex: 1;
+    content: "";
+    height: 1px;
+    background: #ddd;
+    margin-left: 10px;
+}
+.input1,
+.input2 {
+    width: 260px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
+.input1:focus,
+.input2:focus {
+    border-color: #3d82f6;
+}
+.button3 {
+    width: 260px;
+    padding: 11px;
+    margin-top: 15px;
+    background: #2f343a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button3:hover {
+    background-color: #1f2327;
+}
+.p2 {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+}
+
+
+.input-group {
+    position: relative;
+    width: 280px;
+    margin: 10px auto;
+}
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
+}
+.input1 {
+    padding-left: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.button3 {
+    background-color: #2b678c;
+    color: white;
+    width: 280px;
+    padding:12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}

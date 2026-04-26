@@ -18,7 +18,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const COLORS = {
   dark: "#1A1A1A",
   accent: "#A8C7A1",
-  white: "#FFFFFF",
+  white: "#FFFFFWorkspace",
   gray: "#B0B0B0",
 };
 
