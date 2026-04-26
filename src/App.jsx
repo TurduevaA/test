@@ -5,6 +5,7 @@ import Registr from "./components/Registr";
 const App = () => {
   return (
     <div>
+      <Registr />
     </div>
   );
 };
